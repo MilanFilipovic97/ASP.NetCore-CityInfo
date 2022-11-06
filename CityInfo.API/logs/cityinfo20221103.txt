@@ -1,0 +1,85 @@
+2022-11-03 19:17:25.695 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-03 19:17:25.818 +01:00 [DBG] Hosting starting
+2022-11-03 19:17:25.848 +01:00 [INF] User profile is available. Using 'C:\Users\Akvelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-03 19:17:25.852 +01:00 [DBG] Reading data from file 'C:\Users\Akvelon\AppData\Local\ASP.NET\DataProtection-Keys\key-ba082b52-3963-4a53-9879-9176df6c89e4.xml'.
+2022-11-03 19:17:25.874 +01:00 [DBG] Found key {ba082b52-3963-4a53-9879-9176df6c89e4}.
+2022-11-03 19:17:25.885 +01:00 [DBG] Considering key {ba082b52-3963-4a53-9879-9176df6c89e4} with expiration date 2022-11-08 17:40:37Z as default key.
+2022-11-03 19:17:25.886 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-03 19:17:25.888 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-03 19:17:25.890 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-03 19:17:25.893 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-03 19:17:25.895 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-03 19:17:25.897 +01:00 [DBG] Using key {ba082b52-3963-4a53-9879-9176df6c89e4} as the default key.
+2022-11-03 19:17:25.898 +01:00 [DBG] Key ring with default key {ba082b52-3963-4a53-9879-9176df6c89e4} was loaded during application startup.
+2022-11-03 19:17:26.031 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 02CDADE9849D1C31B096DCEE3AB2961BB60018F0)
+2022-11-03 19:17:26.074 +01:00 [INF] Now listening on: https://localhost:7169
+2022-11-03 19:17:26.075 +01:00 [INF] Now listening on: http://localhost:5169
+2022-11-03 19:17:26.075 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-11-03 19:17:26.076 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-03 19:17:26.077 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-03 19:17:26.078 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-03 19:17:26.079 +01:00 [INF] Hosting environment: Development
+2022-11-03 19:17:26.079 +01:00 [INF] Content root path: C:\Users\Akvelon\Downloads\New folder (5)\10\demos\end\CityInfo.API\
+2022-11-03 19:17:26.080 +01:00 [DBG] Hosting started
+2022-11-03 19:17:26.211 +01:00 [DBG] Connection id "0HMLTOUKK1M5I" accepted.
+2022-11-03 19:17:26.212 +01:00 [DBG] Connection id "0HMLTOUKK1M5I" started.
+2022-11-03 19:17:26.215 +01:00 [DBG] Connection id "0HMLTOUKK1M5J" accepted.
+2022-11-03 19:17:26.216 +01:00 [DBG] Connection id "0HMLTOUKK1M5J" started.
+2022-11-03 19:17:40.090 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-03 19:17:40.201 +01:00 [DBG] Hosting starting
+2022-11-03 19:17:40.254 +01:00 [INF] User profile is available. Using 'C:\Users\Akvelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-03 19:17:40.261 +01:00 [DBG] Reading data from file 'C:\Users\Akvelon\AppData\Local\ASP.NET\DataProtection-Keys\key-ba082b52-3963-4a53-9879-9176df6c89e4.xml'.
+2022-11-03 19:17:40.272 +01:00 [DBG] Found key {ba082b52-3963-4a53-9879-9176df6c89e4}.
+2022-11-03 19:17:40.297 +01:00 [DBG] Considering key {ba082b52-3963-4a53-9879-9176df6c89e4} with expiration date 2022-11-08 17:40:37Z as default key.
+2022-11-03 19:17:40.302 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-03 19:17:40.306 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-03 19:17:40.309 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-03 19:17:40.315 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-03 19:17:40.319 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-03 19:17:40.325 +01:00 [DBG] Using key {ba082b52-3963-4a53-9879-9176df6c89e4} as the default key.
+2022-11-03 19:17:40.326 +01:00 [DBG] Key ring with default key {ba082b52-3963-4a53-9879-9176df6c89e4} was loaded during application startup.
+2022-11-03 19:17:40.460 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 02CDADE9849D1C31B096DCEE3AB2961BB60018F0)
+2022-11-03 19:17:40.508 +01:00 [INF] Now listening on: https://localhost:7169
+2022-11-03 19:17:40.508 +01:00 [INF] Now listening on: http://localhost:5169
+2022-11-03 19:17:40.508 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-11-03 19:17:40.509 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-03 19:17:40.509 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-03 19:17:40.510 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-03 19:17:40.510 +01:00 [INF] Hosting environment: Development
+2022-11-03 19:17:40.513 +01:00 [INF] Content root path: C:\Users\Akvelon\Downloads\New folder (5)\10\demos\end\CityInfo.API\
+2022-11-03 19:17:40.513 +01:00 [DBG] Hosting started
+2022-11-03 19:17:40.521 +01:00 [DBG] Connection id "0HMLTOUOSH28M" accepted.
+2022-11-03 19:17:40.521 +01:00 [DBG] Connection id "0HMLTOUOSH28L" accepted.
+2022-11-03 19:17:40.522 +01:00 [DBG] Connection id "0HMLTOUOSH28M" started.
+2022-11-03 19:17:40.522 +01:00 [DBG] Connection id "0HMLTOUOSH28L" started.
+2022-11-03 19:17:40.549 +01:00 [DBG] Connection id "0HMLTOUOSH28L" received FIN.
+2022-11-03 19:17:40.549 +01:00 [DBG] Connection id "0HMLTOUOSH28M" received FIN.
+2022-11-03 19:17:40.564 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-03 19:17:40.564 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-03 19:17:40.604 +01:00 [DBG] Connection id "0HMLTOUOSH28M" stopped.
+2022-11-03 19:17:40.604 +01:00 [DBG] Connection id "0HMLTOUOSH28L" stopped.
+2022-11-03 19:17:40.608 +01:00 [DBG] Connection id "0HMLTOUOSH28M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-03 19:17:40.608 +01:00 [DBG] Connection id "0HMLTOUOSH28L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-03 19:18:00.605 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-03 19:18:00.769 +01:00 [DBG] Hosting starting
+2022-11-03 19:18:00.815 +01:00 [INF] User profile is available. Using 'C:\Users\Akvelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-03 19:18:00.818 +01:00 [DBG] Reading data from file 'C:\Users\Akvelon\AppData\Local\ASP.NET\DataProtection-Keys\key-ba082b52-3963-4a53-9879-9176df6c89e4.xml'.
+2022-11-03 19:18:00.826 +01:00 [DBG] Found key {ba082b52-3963-4a53-9879-9176df6c89e4}.
+2022-11-03 19:18:00.840 +01:00 [DBG] Considering key {ba082b52-3963-4a53-9879-9176df6c89e4} with expiration date 2022-11-08 17:40:37Z as default key.
+2022-11-03 19:18:00.843 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-03 19:18:00.847 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-03 19:18:00.849 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-03 19:18:00.852 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-03 19:18:00.854 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-03 19:18:00.856 +01:00 [DBG] Using key {ba082b52-3963-4a53-9879-9176df6c89e4} as the default key.
+2022-11-03 19:18:00.857 +01:00 [DBG] Key ring with default key {ba082b52-3963-4a53-9879-9176df6c89e4} was loaded during application startup.
